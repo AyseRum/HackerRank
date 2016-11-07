@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main(void)
+{
+   //Local Declarations
+    int a0; 
+    int a1; 
+    int a2; 
+
+    int b0; 
+    int b1; 
+    int b2; 
+    
+    int sum_a;
+    int sum_b;
+    
+    scanf("%d %d %d",&a0,&a1,&a2);
+    scanf("%d %d %d",&b0,&b1,&b2);
+    
+    if (a0 > b0)
+        sum_a++ ;
+        if (a0 < b0)
+            sum_b++ ;
+        else
+            ;
+    
+    if (a1 > b1)
+        sum_a++ ;
+        if (a1 < b1)
+            sum_b++ ;
+        else
+            ;
+    
+    if (a2 > b2)
+        sum_a++ ;
+        if (a2 < b2)
+            sum_b++ ;
+        else
+            ;
+    
+    printf("%d %d", sum_a, sum_b);
+    return 0;
+}
